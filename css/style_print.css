@@ -1,0 +1,422 @@
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a {
+  color: #0087C3;
+  text-decoration: none;
+}
+
+body {
+  position: relative;
+  width: 21cm;  
+  height: 29.7cm; 
+  margin: 0 auto; 
+  color: #555555;
+  background: #FFFFFF; 
+  font-family: Arial, sans-serif; 
+  font-size: 14px; 
+}
+
+
+
+header {
+  padding: 5px 0;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #AAAAAA;
+}
+
+#logo {
+    float: left;
+  margin-top: 8px;
+}
+
+#logo img {
+  height: 55px;
+}
+
+#company {
+  text-align: right;
+}
+
+#attention {
+  float: left;
+  text-align: left;
+  font-size: 1.2em;
+  margin: 0  0 13px 0;
+}
+
+#details {
+  margin-bottom: 0px;
+}
+
+#client {
+  padding-left: 6px;
+  border-left: 6px solid #0087C3;
+  float: left;
+}
+
+#client .to {
+  color: #777777;
+  font-size: 1.1em;
+}
+
+h2.name {
+  font-size: 1.7em;
+  font-weight: normal;
+  margin: 0;
+}
+
+#invoice {
+  float: right;
+  text-align: right;
+  font-size: 1.1em;
+  margin: 0  0 13px 0;
+}
+
+#memo {
+  float: left;
+  text-align: left;
+  font-size: 1.2em;
+  margin: 0  0 13px 0;
+}
+
+#invoice h1 {
+  color: #0087C3;
+  font-size: 1.7em;
+  line-height: 1em;
+  font-weight: normal;
+  margin: 0  0 13px 0;
+}
+
+#invoice .date {
+  font-size: 1.1em;
+  color: #777777;
+}
+
+#tbl-detail th,
+#tbl-detail td {
+  padding: 5px;
+  background: #EEEEEE;
+  text-align: center;
+  border-bottom: 1px solid #FFFFFF;
+}
+
+#tbl-detail th {
+  white-space: nowrap;        
+  font-weight: normal;
+}
+
+#tbl-detail td {
+  text-align: right;
+}
+#tbl-detail td h3{
+  color: #0087C3;
+  font-size: 1.2em;
+  font-weight: normal;
+  margin: 0 0 0.2em 0;
+}
+
+#tbl-detail .no {
+  color: #FFFFFF;
+  font-size: 1.2em;
+  background: #0087C3;
+  text-align: center;
+}
+
+#tbl-detail .desc {
+  text-align: left;
+  font-size: 1.1em;
+}
+
+#tbl-detail .desc1 {
+  text-align: center;
+  font-size: 1.1em;
+}
+
+#tbl-detail .credit {
+  text-align: right;
+  font-size: 1.1em;
+}
+
+#tbl-detail .debit {
+  text-align: right;
+  font-size: 1.1em;
+}
+
+#tbl-detail .unit {
+  background: #DDDDDD;
+  font-size: 1.2em;
+  text-align: left;
+}
+
+#tbl-detail .unit1 {
+  background: #DDDDDD;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+#tbl-detail .qty {
+  text-align: center;
+}
+
+#tbl-detail .total {
+  background: #0087C3;
+  color: #FFFFFF;
+  font-size: 1.2em;
+}
+
+#tbl-detail td.qty,
+#tbl-detail td.total {
+  font-size: 1.2em;
+}
+
+#tbl-detail tbody tr:last-child td {
+  border: none;
+}
+
+#tbl-detail tfoot td {
+  padding: 4px 7px;
+  background: #FFFFFF;
+  border-bottom: none;
+  font-size: 1.2em; 
+  border-top: 1px solid #AAAAAA; 
+}
+
+#tbl-detail tfoot tr:first-child td {
+  border-top: none; 
+}
+
+#tbl-detail tfoot tr:last-child td {
+  color: #0087C3;
+  font-size: 1.4em;
+  border-top: 1px solid #0087C3; 
+
+}
+
+#tbl-detail tfoot tr td:first-child {
+  border: none;
+}
+
+#tbl-detail-default {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: 10px;
+}
+
+#tbl-detail-default th,
+#tbl-detail-detault td {
+  padding: 4px;
+  text-align: center;
+  border-bottom: 1px;
+}
+
+#tbl-detail-default th {
+  white-space: nowrap;        
+  font-weight: normal;
+}
+
+#tbl-detail-default td {
+  text-align: right;
+  padding: 1px;
+}
+
+#tbl-detail-default td h3{
+  color: #0087C3;
+  font-size: 1.2em;
+  font-weight: normal;
+  margin: 0 0 0.2em 0;
+}
+
+#tbl-detail-default .no {
+  text-align: center;
+}
+
+#tbl-detail-default .desc {
+  text-align: left;
+  font-size: 1.2em;
+}
+
+#tbl-detail-default .partnumber {
+  text-align: left;
+  font-size: 1.2em;
+}
+
+#tbl-detail-default .unit {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+#tbl-detail-default .qty {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+#tbl-detail-default .total {
+  text-align: right;
+  font-size: 1.2em;
+}
+
+#tbl-detail-default td.no,
+#tbl-detail-default td.partnumber,
+#tbl-detail-default td.desc,
+#tbl-detail-default td.unit,
+#tbl-detail-default td.qty,
+#tbl-detail-default td.total {
+  font-size: 1.1em ;
+}
+
+#tbl-detail-default tbody tr:last-child td {
+  border: none;
+}
+
+#tbl-detail-default tfoot td {
+  padding: 4px 0px;
+  background: #FFFFFF;
+  border-bottom: none;
+  font-size: 1.2em;
+  white-space: nowrap; 
+  border-top: 1px solid #AAAAAA; 
+}
+
+#tbl-detail-default tfoot tr:first-child td {
+  border-top: none; 
+}
+
+#tbl-detail-default tfoot tr:last-child td {
+  color: #0087C3;
+  font-size: 1.4em;
+  border-top: 1px solid #0087C3; 
+
+}
+
+#tbl-detail-default tfoot tr td:first-child {
+  border: none;
+}
+
+
+#thanks{
+  font-size: 1.2em;
+  margin-bottom: 4px;
+}
+
+#submitted{
+  font-size: 1.2em;
+  margin-bottom: 120px;
+  text-align: right;
+  padding: 10px 9px;
+}
+
+#signsubmitted{
+  font-size: 1.2em;
+  margin-bottom: -204px;
+  text-align: right;
+  padding: 10px 9px;
+}
+#center_submitted{
+  font-size: 1.2em;
+  margin-bottom: 120px;
+  text-align: center;
+  padding: 10px 9px;
+}
+
+#center_signsubmitted{
+  font-size: 1.2em;
+  margin-bottom: -204px;
+  text-align: center;
+  padding: 10px 9px;
+}
+
+#approved{
+  font-size: 1.2em;
+  margin-bottom: 120px;
+  text-align: left;
+  padding: 10px 9px;
+}
+
+#signapproved{
+  font-size: 1.2em;
+  margin-bottom: -204px;
+  text-align: left;
+  padding: 10px 9px;
+}
+
+#confirmed{
+  font-size: 1.2em;
+  margin-bottom: 120px;
+  text-align: right;
+  padding: 10px 9px;
+}
+
+#signconfirmed{
+  font-size: 1.2em;
+  margin-bottom: 204px;
+  text-align: right;
+  padding: 10px 9px;
+}
+
+#signinvoice{
+  font-size: 1.2em;
+  margin-bottom: -194px;
+  text-align: right;
+  padding: 10px 9px;
+}
+
+.float-left{
+  float:left;
+  margin-left:20px;
+}
+.float-right{
+  float:right;
+}
+
+#notices{
+  padding-left: 6px;
+  border-left: 6px solid #0087C3;  
+}
+
+#noticesl{
+  padding-left: 6px;
+  border-left: 6px solid #0087C3;
+  width:50%;
+  display:inline-block;  
+}
+
+#noticesr{
+  padding-right: 6px;
+  border-right: 6px solid #0087C3; 
+  margin-top: -97.5px;
+  margin-bottom: 20px;
+  width:50%;
+  display:inline-block;
+  float:right;
+}
+
+#notices .notice {
+  font-size: 1.2em;
+}
+
+#noticesl .noticel {
+  font-size: 1.2em;
+  text-align: left;
+  color : #0087C3;
+}
+
+#noticesr .noticer {
+  font-size: 1.2em;
+  text-align: right;
+  color : #0087C3;
+}
+footer {
+  color: #777777;
+  width: 100%;
+  height: 20px;
+  position: absolute;
+  bottom: 0;
+  border-top: 1px solid #AAAAAA;
+  padding: 8px 0;
+  text-align: center;
+}

@@ -1,0 +1,141 @@
+.m-t-80 {
+	margin-top: 40px;
+}
+
+.m-t-50 {
+	margin-top: 50px;
+}
+.m-t-40 {
+	margin-top: 40px;
+}
+.m-t-30 {
+	margin-top: 30px;
+}
+.m-t-20 {
+	margin-top: 20px;
+}
+.m-t-10 {
+	margin-top: 10px;
+}
+.m-t-5 {
+	margin-top: 5px;
+}
+
+.p-15 {
+	padding: 15px;
+}
+
+.bg-grey {
+	background: #f2f2f2;
+}
+
+.bg-transparent {
+	background: transparent !important;
+}
+
+.p-content {
+	padding: 0 0 0 15px !important;
+}
+
+
+.bg-white {
+	background: #ffffff !important;
+}
+
+.nav-link {
+	border: none !important;
+}
+
+.nav-item:hover {
+}
+
+.page-sidebar .page-sidebar-menu .sub-menu>li.active>a, .page-sidebar .page-sidebar-menu .sub-menu>li.open>a {
+	background-color: #f1fcf3e5 !important;
+}
+
+.page-sidebar .page-sidebar-menu .sub-menu>li>a {
+	color: #444444 !important;
+}
+.page-sidebar .page-sidebar-menu .sub-menu>li>a:hover {
+	background: #fbf1fce6 !important;
+}
+
+.page-sidebar .page-sidebar-menu>li>a {
+	color: #444444 !important;
+}
+
+.page-sidebar .page-sidebar-menu>li.open>a {
+	background-color: #a8edca !important;
+}
+
+.page-sidebar .page-sidebar-menu>li>a:hover {
+	background: #fae6fa;
+}
+
+.page-sidebar .page-sidebar-menu>li.active.open>a>.arrow.open:before, .page-sidebar .page-sidebar-menu>li.active.open>a>.arrow:before, .page-sidebar .page-sidebar-menu>li.active.open>a>i, .page-sidebar .page-sidebar-menu>li.active>a>.arrow.open:before, .page-sidebar .page-sidebar-menu>li.active>a>.arrow:before, .page-sidebar .page-sidebar-menu>li.active>a>i, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li.active.open>a>.arrow.open:before, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li.active.open>a>.arrow:before, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li.active.open>a>i, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li.active>a>.arrow.open:before, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li.active>a>.arrow:before, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li.active>a>i {
+	color: #15b788 !important;
+}
+
+.p-action {
+	padding: 4px 9px !important;
+}
+.border-none {
+	border: none !important;
+}
+
+.line {
+	height: 1px;
+	background: #d1d1d1;
+}
+
+.fs-12 {
+	font-size: 12px;
+}
+
+.lh-80 {
+	line-height: 80%;
+}
+
+.b1 {
+	border: 1px solid #919191;
+	padding: 10px;
+}
+#modal-detail .modal-dialog {
+  width: 90%;
+  height: 100%;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  padding: 0;
+}
+
+#modal-detail .modal-content {
+  height: auto;
+  min-height: 100%;
+  border-radius: 0;
+}
+
+#checkpoint_list {
+   height: 400px;
+   overflow-y: scroll;
+   overflow-x: hidden;
+}
+
+#checkpoint_list::-webkit-scrollbar-track { 
+	box-shadow: inset 0 0 6px #00000000;
+	background-color: #f5f5f500;
+}
+
+#checkpoint_list::-webkit-scrollbar
+{
+	width: 2px;
+	background-color: #ffffff00;
+}
+
+#checkpoint_list::-webkit-scrollbar-thumb
+{
+	background-color: #000000;
+	border: 2px solid #55555500;
+}
